@@ -43,7 +43,7 @@ class Ball:
             self.speed_y *= -1
 
     def draw(self, screen):
-        """Draw the ball on the screen"""
+        """Draw the ball on screen"""
         pygame.draw.circle(screen, self.color, (self.x, self.y), self.radius)
 
 def render_text(text, x, y):
